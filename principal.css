@@ -1,0 +1,66 @@
+body {
+    background-size: 100%;
+    background-image: url("imgs/lebronsunshine.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 5%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: black; /* Define a cor do texto como preta */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.left-content {
+    width: 45%;
+}
+
+.right-content {
+    width: 45%;
+}
+
+.right-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.right-content li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.reviews {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.review-box {
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo branco com opacidade */
+    border-radius: 10px;
+    padding: 10px;
+    width: 30%;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.review-box {
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo branco com opacidade */
+    border-radius: 10px;
+    padding: 10px;
+    width: 30%;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Adiciona margem inferior para separação */
+}
