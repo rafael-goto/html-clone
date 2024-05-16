@@ -6,7 +6,7 @@ body {
     padding-top: 5%;
     margin: 0;
     font-family: Arial, sans-serif;
-    color: black; /* Define a cor do texto como preta */
+    color: black;
 }
 
 .container {
@@ -40,7 +40,7 @@ body {
 }
 
 .review-box {
-    background-color: rgba(255, 255, 255, 0.8); /* Fundo branco com opacidade */
+    background-color: rgba(255, 255, 255, 0.8);
     border-radius: 10px;
     padding: 10px;
     width: 30%;
@@ -56,11 +56,11 @@ body {
 }
 
 .review-box {
-    background-color: rgba(255, 255, 255, 0.8); /* Fundo branco com opacidade */
+    background-color: rgba(255, 255, 255, 0.8);
     border-radius: 10px;
     padding: 10px;
     width: 30%;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px; /* Adiciona margem inferior para separação */
+    margin-bottom: 20px; 
 }
